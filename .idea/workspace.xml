@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87292463-7b2b-4252-abb1-0785db6e5dc8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/CeitGifBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CeitGifBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,16 +25,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CeitGifBot.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CeitGifBot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CeitGifBot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -65,9 +69,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Ceit_Gif_Bot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/CeitGifBot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -209,7 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528473353221</updated>
       <workItem from="1528473357826" duration="135000" />
-      <workItem from="1528473658581" duration="455000" />
+      <workItem from="1528473658581" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="create bot @botfather and then create the maven project">
       <created>1528473879599</created>
@@ -232,11 +236,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528474101553</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete the bot class">
+      <created>1528474153193</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528474153193</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="590000" />
+    <option name="totallyTimeSpent" value="658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -284,7 +295,8 @@
     <MESSAGE value="create bot @botfather and then create the maven project" />
     <MESSAGE value="add classes and then add telegram dependencies in pom.xml(add java library)" />
     <MESSAGE value="configure the bot class...it should extends TelegramLongPollingBot" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure the bot class...it should extends TelegramLongPollingBot" />
+    <MESSAGE value="complete the bot class" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete the bot class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -311,13 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -335,6 +340,16 @@
             <element signature="e#932#933#0" expanded="true" />
             <element signature="e#971#972#0" expanded="true" />
             <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
