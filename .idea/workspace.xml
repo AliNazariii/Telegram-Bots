@@ -19,8 +19,8 @@
       <file leaf-file-name="PhotoBot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PhotoBot/PhotoBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -264,7 +264,7 @@
       <workItem from="1532444046518" duration="739000" />
       <workItem from="1532953124367" duration="2273000" />
       <workItem from="1532956611386" duration="1217000" />
-      <workItem from="1532942403660" duration="5792000" />
+      <workItem from="1532942403660" duration="6120000" />
     </task>
     <task id="LOCAL-00001" summary="create bot @botfather and then create the maven project">
       <created>1528473879599</created>
@@ -315,11 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532948754261</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="my photos added instead of buttons">
+      <created>1532951546876</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532951546876</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10679000" />
+    <option name="totallyTimeSpent" value="11007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -371,7 +378,8 @@
     <MESSAGE value="now when you send a picture, photoBot will give you the picture and a caption include width and height and file id" />
     <MESSAGE value="now when you send /pic, it will return you my picture :)" />
     <MESSAGE value="reply markup keyboard and hide reply keyboard added" />
-    <option name="LAST_COMMIT_MESSAGE" value="reply markup keyboard and hide reply keyboard added" />
+    <MESSAGE value="my photos added instead of buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="my photos added instead of buttons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -586,8 +594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PhotoBot/PhotoBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="272">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -29,21 +29,6 @@ public class PhotoBot extends TelegramLongPollingBot
             {
                 SendMessage message = new SendMessage() // Create a message object object
                         .setChatId(chatId)
-                        .setText("Bot Started!");
-                try
-                {
-                    sendMessage(message); // Sending our message object to user
-                }
-                catch (TelegramApiException e)
-                {
-                    e.printStackTrace();
-                }
-            }
-
-            else if (textMessage.equals("/markup"))
-            {
-                SendMessage message = new SendMessage() // Create a message object object
-                        .setChatId(chatId)
                         .setText("Here is your keyboard");
 
                 // Create ReplyKeyboardMarkup object
