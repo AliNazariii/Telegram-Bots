@@ -3,7 +3,7 @@ import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 
-public class CeitGifBot extends TelegramLongPollingBot
+public class SimpleEchoBot extends TelegramLongPollingBot
 {
     public void onUpdateReceived(Update update)
     {

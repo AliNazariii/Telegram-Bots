@@ -9,7 +9,7 @@ public class Main
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
         try
         {
-            telegramBotsApi.registerBot(new CeitGifBot());
+            telegramBotsApi.registerBot(new SimpleEchoBot());
         }
         catch (TelegramApiException e)
         {
