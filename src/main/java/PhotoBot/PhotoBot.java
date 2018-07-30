@@ -21,16 +21,54 @@ public class PhotoBot extends TelegramLongPollingBot
             // Set variables
             String message_text = update.getMessage().getText();
             long chat_id = update.getMessage().getChatId();
-            SendMessage message = new SendMessage() // Create a message object object
-                    .setChatId(chat_id)
-                    .setText(message_text);
-            try
+
+            if (message_text.equals("/start"))
             {
-                sendMessage(message); // Sending our message object to user
+                // User send /start
+                SendMessage message = new SendMessage() // Create a message object object
+                        .setChatId(chat_id)
+                        .setText(message_text);
+                try
+                {
+                    sendMessage(message); // Sending our message object to user
+                }
+                catch (TelegramApiException e)
+                {
+                    e.printStackTrace();
+                }
             }
-            catch (TelegramApiException e)
+
+            else if (message_text.equals("/pic"))
             {
-                e.printStackTrace();
+                // User sent /pic
+                SendPhoto msg = new SendPhoto()
+                        .setChatId(chat_id)
+                        .setPhoto("AgADBAADd64xG20oAAFThA2veqUIOAh6FZ0aAATSLOfZfC7i9LxgAwABAg")
+                        .setCaption("Photo");
+                try
+                {
+                    sendPhoto(msg); // Call method to send the photo
+                }
+                catch (TelegramApiException e)
+                {
+                    e.printStackTrace();
+                }
+            }
+
+            else
+            {
+                // Unknown command
+                SendMessage message = new SendMessage() // Create a message object object
+                        .setChatId(chat_id)
+                        .setText("Unknown command");
+                try
+                {
+                    sendMessage(message); // Sending our message object to user
+                }
+                catch (TelegramApiException e)
+                {
+                    e.printStackTrace();
+                }
             }
         }
 
